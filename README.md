@@ -2,7 +2,7 @@ Spotify Song Popularity Analysis — Big Data & Regression Modeling
 
 This project explores the relationship between various audio features and song popularity using large-scale data processing and distributed computing tools. The goal was to clean, transform, and analyze a massive Spotify dataset, then build and evaluate a regression model capable of predicting a song’s popularity score from its numerical attributes.
 
-📁 Dataset (Must Be Downloaded Separately)
+Dataset (Must Be Downloaded Separately)
 
 This project uses the “500K+ Spotify Songs with Lyrics, Emotions & More” dataset.
 Due to its size (~500k rows, 39 columns, ~1GB), the dataset is NOT included in this repository.
@@ -27,7 +27,7 @@ Python — analysis and modeling
 
 Spark MLlib (Regression) — building and evaluating predictive model
 
-📊 Project Workflow
+Project Workflow
 1. Data Cleaning & Preprocessing (Spark)
 
 Removed non-numerical and irrelevant fields
@@ -66,7 +66,7 @@ Found that Boolean features like “good for driving” and “good for party”
 
 Determined that many audio metrics alone cannot capture the full complexity of song popularity
 
-⚙️ Challenges
+Challenges
 
 Managing large-scale data without overloading memory (especially when using Pandas)
 
@@ -76,7 +76,7 @@ Handling multi-label genre fields and comma-separated lyrics
 
 Addressing skewed and imbalanced features
 
-🚀 Future Improvements
+Future Improvements
 
 Enhance features by encoding genres and lyrics properly
 
