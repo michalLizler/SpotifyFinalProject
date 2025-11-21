@@ -1,4 +1,4 @@
-Spotify Song Popularity Analysis — Big Data & Regression Modeling
+**Spotify Song Popularity Analysis — Big Data & Regression Modeling**
 
 This project explores the relationship between various audio features and song popularity using large-scale data processing and distributed computing tools. The goal was to clean, transform, and analyze a massive Spotify dataset, then build and evaluate a regression model capable of predicting a song’s popularity score from its numerical attributes.
 
